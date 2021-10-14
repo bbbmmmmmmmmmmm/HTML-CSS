@@ -1,0 +1,286 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.contents1 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents2 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.contents3 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.contents1_bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result {
+    font-size: 24px;
+}
+
+.intro_bg {
+    background-image: url('images/intro.png');
+    width: 100%;
+    height: 718px;
+}
+
+.header {
+    display: flex;
+    width: 1280px;
+    height: 86px;
+    margin: auto;
+    align-items: center;
+}
+
+.searchArea {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.searchArea > form > input {
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.0);
+    color: #fff;
+    padding-left: 10px;
+}
+
+.searchArea > form > span {
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    width: calc(1280px - 300px);
+    height: 86px;
+    align-items: center;
+}
+
+.nav > li {
+    margin-left: 84px;
+}
+
+.nav > li > a {
+    color: #fff;
+}
+
+.intro_text {
+    width: 100%;
+    height: calc(718px - 86px);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_text > h1,
+.intro_text > h4 {
+    color: #fff;
+}
+
+.amount {
+    position: relative;
+    top: -66px;
+    width: 1280px;
+    display: flex;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.amount > li {
+    flex: 1;
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount > li > div {
+    text-align: center;
+    width: 100%;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount > li:not(:last-child) > div {
+    border-right: 1px solid #e1e1e1;
+}
+
+.main_text0 {
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background-color: #f1f2f3;
+}
+
+.main_text0 > h1 {
+    padding-top: 116px;
+    text-align: center;
+}
+
+.main_text0 > .contents1 {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: auto;
+}
+
+.icons > li {
+    flex: 1;
+    background-color: white;
+    margin-top: 49px;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons > li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.icons .contents3 {
+    width: 180px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.more {
+    width: 100px;
+    height: 30px;
+    background-color: #2f7af4;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.main_text1 {
+    width: 100%;
+    height: 659px;
+}
+
+.main_text1 > h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main_text1 > .contents1 {
+    text-align: center;
+}
+
+.service {
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    height: 427px;
+}
+
+.service > .contents2 {
+    padding: 20px;
+}
+
+.service > .contents2 > h2 {
+    margin-bottom: 27px;
+}
+
+.main_text2 {
+    width: 100%;
+    height: 418px;
+    background-image: url('images/contact.png');
+}
+
+.main_text2 > ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text2 > ul > li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text2 > ul > li > * {
+    color: #fff;
+}
+
+.more2 {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 245px;
+    align-items: center;
+}
+
+footer > h1,
+footer > div {
+    color: #fff;
+}
+
+footer > h1 {
+    flex: 4;
+    text-align: center;
+}
+
+footer > div {
+    flex: 8;
+}
+
+footer > .contents1 {
+    line-height: 200%;
+}
