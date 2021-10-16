@@ -1,0 +1,43 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+nav > .container {
+    width: 60rem;
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: calc(6.4/12*100%);
+    padding: 0 .75rem;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: calc(5/12*100%);
+    padding: 0 .75rem;
+}
+
+/* haeder */
+
+header {
+    padding: 11rem 0 5rem;
+}
+
+header > .container {
+    width: 60rem;
+}
+
+header .text-container {
+    margin-top: 4rem;
+}
+
+header .text-container h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}

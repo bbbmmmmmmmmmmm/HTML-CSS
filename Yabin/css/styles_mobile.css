@@ -1,0 +1,107 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+/* navbar */
+
+nav {
+    padding-top: .625rem;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+nav > .container {
+    width: 45rem;
+}
+
+nav > .container > a > img {
+    width: 7.75rem;
+    height: 2rem;
+}
+
+.navbar > ul,
+.navbar .btn-outline-sm {
+    display: none;
+}
+
+.navbar .navbar-toggler {
+    display: inline-block;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar .navbar-toggler:hover {
+    cursor: pointer;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    display: inline-block;
+    width: 1.875rem;
+    height: 1.875rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* header */
+
+header {
+    padding: 11rem 0 5rem;
+    text-align: center;
+}
+
+header > .container {
+    width: 45rem;
+}
+
+header .text-container {
+    margin-top: 0;
+}
+
+header .text-container h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+header .image-container {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    /* navbar */
+
+    nav > .container {
+        width: 33.75rem;
+    }
+
+    /* header */
+    
+    header > .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 569px) {
+    /* navbar */
+
+    nav > .container {
+        width: 90%;
+        padding: 0 .75rem;
+    }
+}
