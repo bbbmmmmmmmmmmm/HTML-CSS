@@ -114,6 +114,22 @@ header .image-container {
     margin-bottom: 5rem;
 }
 
+/* services */
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+#services .text-container {
+    margin-bottom: 5rem;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
 @media (max-width: 750px) {
 
     .container {
@@ -145,6 +161,11 @@ header .image-container {
 }
 
 @media (max-width: 569px) {
+
+    .container {
+        width: 100%;
+    }
+
     /* navbar */
 
     nav > .container {

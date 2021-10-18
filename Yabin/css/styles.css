@@ -109,6 +109,13 @@ h2 {
     letter-spacing: -0.2px;
 }
 
+h5 {
+    color: #191e47;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+}
+
 .container {
     width: 72.5rem;
     margin: auto;
@@ -122,6 +129,28 @@ h2 {
 
 .bg-gray {
     background-color: #f9fafe;;
+}
+
+.d-flex {
+    margin-bottom: 0.5rem;
+}
+
+.flex-grow-1 {
+    margin-left: .5rem;
+    flex-grow: 1;
+    line-height: 1.625rem;
+    color: #6c717b;
+}
+
+.fas {
+    color: #cc2973;
+    font-size: 0.375rem;
+    line-height: 1.625rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 /* navbar */
@@ -204,11 +233,6 @@ header .text-container .p-large {
 
 header .image-container {
     text-align: right;
-}
-
-header .image-container img {
-    max-width: 100%;
-    height: auto;
 }
 
 header .btn-solid-lg {
@@ -311,15 +335,82 @@ header .btn-solid-lg {
     display: flex;
 }
 
-#details ul .d-flex .fas {
-    color: #cc2973;
-    font-size: 0.375rem;
+/* services */
+
+.cards-1 {
+    padding-top: 9.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: calc(5/12*100%);
+}
+
+#services .text-container {
+    margin-top: 2rem;
+    margin-right: 4.75rem;
+}
+
+#services h2 {
+    margin-bottom: 1.75rem;
+}
+
+#services p {
+    margin-bottom: 1rem;
+    color: #6c717b;
     line-height: 1.625rem;
 }
 
-#details ul .d-flex .flex-grow-1 {
-    margin-left: .5rem;
-    flex-grow: 1;
-    line-height: 1.625rem;
-    color: #6c717b;
+#services ul {
+    margin-top: 1.5rem;
+}
+
+#services .d-flex {
+    display: flex;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: calc(7/12*100%);
+}
+
+#services .card-container {
+    text-align: center;
+}
+
+#services .card {
+    width: 150px;
+    display: inline-block;
+    margin: 0 2.25rem;
+    margin-bottom: 3.75rem;
+}
+
+#services .card:nth-of-type(3n+1) {
+    margin-left: 0;
+}
+
+#services .card:nth-of-type(3n+3) {
+    margin-right: 0;
+}
+
+#services .card-icon {
+    width: 5.625rem;
+    height: 5.625rem;
+    margin: 0 auto 1.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#services .card-icon .fas {
+    margin-left: 2rem;
+    font-size: 3.75rem;
+    font-weight: 900;
+    display: inline-block;;
+    line-height: 1;
+}
+
+#services .card-title {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
 }
