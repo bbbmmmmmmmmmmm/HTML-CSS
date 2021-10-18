@@ -12,6 +12,7 @@ body {
     color: #cc2973;
     border: 1px solid #cc2973;
     border-radius: 30px;
+    font-weight: 600;
 }
 
 .btn-outline-sm:hover {
@@ -27,6 +28,7 @@ body {
     color: #cc2973;
     border: 1px solid #cc2973;
     border-radius: 30px;
+    font-weight: 600;
 }
 
 .btn-outline-lg:hover {
@@ -43,9 +45,27 @@ body {
     color: #fff;
     border: 1px solid #4555de;
     border-radius: 30px;
+    font-weight: 600;
 }
 
 .btn-solid-lg:hover {
+    color: #4555de;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-solid-reg {
+    display: inline-block;
+    padding: 0.875rem 2.25rem;
+    background-color: #4555de;
+    color: #fff;
+    border: 1px solid #4555de;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn-solid-reg:hover {
     color: #4555de;
     background-color: #fff;
     transition: all .2s ease-in-out;
@@ -102,11 +122,6 @@ h2 {
 
 .bg-gray {
     background-color: #f9fafe;;
-}
-
-.basic-1 {
-    padding-top: 9.25rem;
-    padding-bottom: 8.75rem;
 }
 
 /* navbar */
@@ -242,14 +257,69 @@ header .btn-solid-lg {
 
 /* introduction */
 
-.basic-1 h2 {
+.basic-1 {
+    padding-top: 9.25rem;
+    padding-bottom: 8.75rem;
+}
+
+#introduction h2 {
     width: 90%;
     margin-bottom: 1.75rem;
 }
 
-.basic-1 p {
+#introduction p {
     color: #6d717a;
     margin-bottom: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
+}
+
+/* details */
+
+.basic-2 {
+    position: relative;
+    padding-top: 9.5rem;
+    padding-bottom: 9.5rem;
+}
+
+#details .col-4 {
+    flex: 0 0 auto;
+    width: calc(5/12*100%);
+}
+
+#details .col-5 {
+    flex: 0 0 auto;
+    width: calc(7/12*100%);
+}
+
+#details .text-container {
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+}
+
+#details h2 {
+    width: 90%;
+    margin-bottom: 1.875rem;
+}
+
+#details ul {
+    margin-bottom: 2rem;
+}
+
+#details ul .d-flex {
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+
+#details ul .d-flex .fas {
+    color: #cc2973;
+    font-size: 0.375rem;
+    line-height: 1.625rem;
+}
+
+#details ul .d-flex .flex-grow-1 {
+    margin-left: .5rem;
+    flex-grow: 1;
+    line-height: 1.625rem;
+    color: #6c717b;
 }

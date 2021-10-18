@@ -55,6 +55,22 @@ header .text-container h1 {
 
 /* introduction */
 
-.basic-1 .col-3 {
+#introduction .col-3 {
     width: 100%;
+}
+
+/* details */
+
+#details .col-4 {
+    flex: 0 0 auto;
+    width: calc(6/12*100%);
+}
+
+#details .col-5 {
+    flex: 0 0 auto;
+    width: calc(6/12*100%);
+}
+
+#details .text-container {
+    margin: 0;
 }

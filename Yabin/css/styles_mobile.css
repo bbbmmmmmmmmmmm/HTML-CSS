@@ -94,8 +94,27 @@ header .image-container {
     line-height: 2rem;
 }
 
+/* details */
+
+#details .row {
+    flex-direction: column;
+}
+
+#details .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+#details .col-5 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+#details .image-container {
+    margin-bottom: 5rem;
+}
+
 @media (max-width: 750px) {
-    /* navbar */
 
     .container {
         width: 33.75rem;
@@ -127,10 +146,6 @@ header .image-container {
 
 @media (max-width: 569px) {
     /* navbar */
-
-    .container {
-        width: 100%;
-    }
 
     nav > .container {
         width: 90%;
