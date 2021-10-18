@@ -7,7 +7,7 @@ body {
     font-size: 1rem;
 }
 
-nav > .container {
+.container {
     width: 60rem;
 }
 
@@ -29,10 +29,6 @@ header {
     padding: 11rem 0 5rem;
 }
 
-header > .container {
-    width: 60rem;
-}
-
 header .text-container {
     margin-top: 4rem;
 }
@@ -40,4 +36,19 @@ header .text-container {
 header .text-container h1 {
     font-size: 3rem;
     line-height: 3.5rem;
+}
+
+/* counter */
+
+.counter-container .counter-cell:first-child {
+    margin-left: 4rem;
+}
+
+.counter-container .counter-cell:last-child {
+    margin-right: 4rem;
+}
+
+.counter-cell .purecounter {
+    font-size: 6rem;
+    line-height: 4rem;
 }

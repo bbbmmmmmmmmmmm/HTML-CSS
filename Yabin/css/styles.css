@@ -76,6 +76,17 @@ h1 {
     letter-spacing: -0.4px;
 }
 
+.container {
+    width: 72.5rem;
+    margin: auto;
+    padding: 0 .75rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* navbar */
 
 nav {
@@ -84,6 +95,7 @@ nav {
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 0.875rem;
+    background-color: #fff;
 }
 
 .fixed-top {
@@ -95,9 +107,6 @@ nav {
 }
 
 nav > .container {
-    width: 72.5rem;
-    padding: 0 .75rem;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,17 +150,6 @@ header {
     padding: 12rem 0 6rem;
 }
 
-header > .container {
-    width: 72.5rem;
-    margin: auto;
-    padding: 0 .75rem;
-}
-
-header .row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 header .text-container {
     margin-top: 6.5rem;
 }
@@ -178,4 +176,44 @@ header .image-container img {
 
 header .btn-solid-lg {
     margin-right: .5rem;
+}
+
+/* counter */
+
+.counter {
+    padding: 4.5rem 0 5.5rem;
+    text-align: center;
+}
+
+.counter-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-container .counter-cell {
+    width: 180px;
+    margin-bottom: 4rem;
+}
+
+.counter-container .counter-cell:first-child {
+    margin-left: 1.625rem;
+}
+
+.counter-container .counter-cell:last-child {
+    margin-right: 1.625rem;
+}
+
+.counter-cell .purecounter {
+    font-size: 6.75rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #191e47;
+}
+
+.counter-cell .counter-info {
+    color: #6d717a;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
 }
