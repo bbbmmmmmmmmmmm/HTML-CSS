@@ -62,6 +62,11 @@ body {
     width: calc(7/12*100%);
 }
 
+.col-3 {
+    flex: 0 0 auto;
+    width: calc(9/12*100%);
+}
+
 .p-large {
     color: #6c717b;
     font-size: 1.125rem;
@@ -76,6 +81,14 @@ h1 {
     letter-spacing: -0.4px;
 }
 
+h2 {
+    color: #191e47;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.2px;
+}
+
 .container {
     width: 72.5rem;
     margin: auto;
@@ -85,6 +98,15 @@ h1 {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.bg-gray {
+    background-color: #f9fafe;;
+}
+
+.basic-1 {
+    padding-top: 9.25rem;
+    padding-bottom: 8.75rem;
 }
 
 /* navbar */
@@ -216,4 +238,18 @@ header .btn-solid-lg {
     color: #6d717a;
     font-size: 0.875rem;
     line-height: 1.5rem;
+}
+
+/* introduction */
+
+.basic-1 h2 {
+    width: 90%;
+    margin-bottom: 1.75rem;
+}
+
+.basic-1 p {
+    color: #6d717a;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
 }
