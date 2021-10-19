@@ -118,3 +118,13 @@ header .text-container h1 {
     margin: 0 auto 4.5rem;
     display: inline-block;
 }
+
+/* slider-1 */
+
+.slider-1 .quotes-decoration {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width: 7.5rem;
+    opacity: 0.2;
+}

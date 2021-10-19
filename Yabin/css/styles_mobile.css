@@ -170,6 +170,29 @@ header .image-container {
     margin: 0 auto 4.5rem;
 }
 
+/* contact */
+
+.form-1 {
+    text-align: center;
+}
+
+.form-1 .col-11 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.form-1 .image-container {
+    margin-bottom: 5rem;
+}
+
+.form-1 .text-container {
+    margin-left: 0;
+}
+
+.form-1 h2 {
+    width: 100%;
+}
+
 @media (max-width: 750px) {
 
     .container {

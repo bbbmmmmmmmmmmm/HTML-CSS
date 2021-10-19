@@ -172,6 +172,45 @@ h5 {
     font-weight: 600;
 }
 
+.testimonial-author {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.form-control-input,
+.form-control-textarea {
+    width: 95%;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    padding-left: 1.5rem;
+    border: 1px solid #cbcbd1;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    -webkit-appearance: none;
+}
+
+.form-control-textarea {
+    display: block;
+    height: 12rem;
+}
+
+.form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 3.25rem;
+    border: 1px solid #4555de;
+    border-radius: 30px;
+    background-color: #4555de;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    transition: all 0.2s;
+}
+
 /* navbar */
 
 nav {
@@ -528,4 +567,78 @@ header .btn-solid-lg {
 
 .cards-2 .card .card-text a {
     color: #4555de;
+}
+
+/* slider-1 */
+
+.slider-1 {
+    position: relative;
+    padding: 9.75rem 0;
+}
+
+.slider-1 .quotes-decoration {
+    position: absolute;
+    top: 0;
+    left: 10.625rem;
+    width: 13.75rem;
+    opacity: 0.2;
+}
+
+.slider-1 .slider-container {
+    width: 82%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider-1 .testimonial-image {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-bottom: 2.25rem;
+    border-radius: 50%;
+}
+
+.slider-1 .testimonial-text {
+    margin-bottom: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #6c717b;
+}
+
+.slider-1 .testimonial-author {
+    margin-bottom: 0.25rem;
+    color: #2b2b4f;
+}
+
+.slider-1 .testimonial-position {
+    color: #6c717b;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* contact */
+
+.form-1 {
+    padding-top: 9.5rem;
+    padding-bottom: 8.75rem;
+    text-align: left;
+}
+
+.form-1 .col-11 {
+    flex: 0 0 auto;
+    width: calc(6/12*100%);
+}
+
+.form-1 .text-container {
+    margin-left: 2.5rem;
+}
+
+.form-1 h2 {
+    width: 82%;
+    margin-bottom: 2.5rem;
+}
+
+.form-1 .form-group {
+    margin-bottom: 1.25rem;
 }
