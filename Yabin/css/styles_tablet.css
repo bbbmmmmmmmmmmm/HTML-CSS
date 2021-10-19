@@ -128,3 +128,14 @@ header .text-container h1 {
     width: 7.5rem;
     opacity: 0.2;
 }
+
+/* footer */
+
+.footer .footer-col.first {
+    width: 20rem;
+    margin-right: 1.75rem;
+}
+
+.footer .footer-col.second {
+    margin-right: 1.75rem;
+}

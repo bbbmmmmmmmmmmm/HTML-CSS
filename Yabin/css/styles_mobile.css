@@ -193,6 +193,23 @@ header .image-container {
     width: 100%;
 }
 
+/* footer */
+
+.footer .footer-col.first {
+    width: 100%;
+    margin-right: 0;
+}
+
+.footer .footer-col.second {
+    width: 100%;
+    margin-right: 0;
+}
+
+.footer .footer-col.third {
+    width: 100%;
+    text-align: left;
+}
+
 @media (max-width: 750px) {
 
     .container {
