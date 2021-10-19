@@ -130,6 +130,29 @@ header .image-container {
     width: 100%;
 }
 
+/* basic-3 */
+
+.basic-3 .col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.basic-3 .col-9 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.basic-3 .image-container {
+    text-align: left;
+}
+
+/* basic-4 */
+
+.basic-4 h4 {
+    width: 100%;
+    margin: 0 0 2rem;
+}
+
 @media (max-width: 750px) {
 
     .container {

@@ -5,6 +5,7 @@ html {
 
 body {
     font-size: 1rem;
+    overflow-x: hidden;
 }
 
 .btn-outline-sm {
@@ -107,6 +108,13 @@ h2 {
     font-size: 2rem;
     line-height: 2.5rem;
     letter-spacing: -0.2px;
+}
+
+h4 {
+    color: #191e47;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 h5 {
@@ -286,12 +294,12 @@ header .btn-solid-lg {
     padding-bottom: 8.75rem;
 }
 
-#introduction h2 {
+.basic-1 h2 {
     width: 90%;
     margin-bottom: 1.75rem;
 }
 
-#introduction p {
+.basic-1 p {
     color: #6d717a;
     margin-bottom: 1rem;
     line-height: 1.5rem;
@@ -306,31 +314,31 @@ header .btn-solid-lg {
     padding-bottom: 9.5rem;
 }
 
-#details .col-4 {
+.basic-2 .col-4 {
     flex: 0 0 auto;
     width: calc(5/12*100%);
 }
 
-#details .col-5 {
+.basic-2 .col-5 {
     flex: 0 0 auto;
     width: calc(7/12*100%);
 }
 
-#details .text-container {
+.basic-2 .text-container {
     margin-top: 5rem;
     margin-left: 2.5rem;
 }
 
-#details h2 {
+.basic-2 h2 {
     width: 90%;
     margin-bottom: 1.875rem;
 }
 
-#details ul {
+.basic-2 ul {
     margin-bottom: 2rem;
 }
 
-#details ul .d-flex {
+.basic-2 ul .d-flex {
     margin-bottom: 0.5rem;
     display: flex;
 }
@@ -347,26 +355,26 @@ header .btn-solid-lg {
     width: calc(5/12*100%);
 }
 
-#services .text-container {
+.cards-1 .text-container {
     margin-top: 2rem;
     margin-right: 4.75rem;
 }
 
-#services h2 {
+.cards-1 h2 {
     margin-bottom: 1.75rem;
 }
 
-#services p {
+.cards-1 p {
     margin-bottom: 1rem;
     color: #6c717b;
     line-height: 1.625rem;
 }
 
-#services ul {
+.cards-1 ul {
     margin-top: 1.5rem;
 }
 
-#services .d-flex {
+.cards-1 .d-flex {
     display: flex;
 }
 
@@ -375,26 +383,26 @@ header .btn-solid-lg {
     width: calc(7/12*100%);
 }
 
-#services .card-container {
+.cards-1 .card-container {
     text-align: center;
 }
 
-#services .card {
+.cards-1 .card {
     width: 150px;
     display: inline-block;
     margin: 0 2.25rem;
     margin-bottom: 3.75rem;
 }
 
-#services .card:nth-of-type(3n+1) {
+.cards-1 .card:nth-of-type(3n+1) {
     margin-left: 0;
 }
 
-#services .card:nth-of-type(3n+3) {
+.cards-1 .card:nth-of-type(3n+3) {
     margin-right: 0;
 }
 
-#services .card-icon {
+.cards-1 .card-icon {
     width: 5.625rem;
     height: 5.625rem;
     margin: 0 auto 1.5rem;
@@ -402,7 +410,7 @@ header .btn-solid-lg {
     border-radius: 50%;
 }
 
-#services .card-icon .fas {
+.cards-1 .card-icon .fas {
     margin-left: 2rem;
     font-size: 3.75rem;
     font-weight: 900;
@@ -410,7 +418,62 @@ header .btn-solid-lg {
     line-height: 1;
 }
 
-#services .card-title {
+.cards-1 .card-title {
     margin-bottom: 0.5rem;
     font-weight: 600;
+}
+
+/* basic-3 */
+
+.basic-3 {
+    position: relative;
+    padding-top: 9.5rem;
+    padding-bottom: 9.75rem;
+}
+
+.basic-3 .col-8 {
+    flex: 0 0 auto;
+    width: calc(7/12*100%);
+}
+
+.basic-3 .text-container {
+    margin: 6rem 3rem 5rem 0;
+}
+
+.basic-3 h2 {
+    width: 95%;
+    margin-bottom: 1.875rem;
+}
+
+.basic-3 p {
+    margin-bottom: 2rem;
+    color: #6c717b;
+    line-height: 1.625rem;
+}
+
+.basic-3 .col-9 {
+    flex: 0 0 auto;
+    width: calc(5/12*100%);
+}
+
+.basic-3 .image-container {
+    text-align: right;
+}
+
+/* basic-4 */
+
+.basic-4 {
+    padding-top: 9.25rem;
+    padding-bottom: 9.75rem;
+    text-align: center;
+}
+
+.basic-4 .col-10 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.basic-4 h4 {
+    width: 48rem;
+    margin: 0 auto 2rem;
 }

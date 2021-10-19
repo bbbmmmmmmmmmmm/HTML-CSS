@@ -94,3 +94,19 @@ header .text-container h1 {
     margin-left: 2rem;
     margin-right: 2rem;
 }
+
+/* basic-3 */
+
+.basic-3 .col-8 {
+    flex: 0 0 auto;
+    width: calc(6/12*100%);
+}
+
+.basic-3 .text-container {
+    margin: 0 0 5rem 0;
+}
+
+.basic-3 .col-9 {
+    flex: 0 0 auto;
+    width: calc(6/12*100%);
+}
