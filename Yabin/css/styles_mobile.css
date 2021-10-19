@@ -153,6 +153,23 @@ header .image-container {
     margin: 0 0 2rem;
 }
 
+/* cards-2 */
+
+.cards-2 .card {
+    width: 21.875rem;
+    margin: 0 auto 4.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-2 .h2-heading {
+    width: 100%;
+}
+
+.cards-2 .card:nth-of-type(3n+2) {
+    margin: 0 auto 4.5rem;
+}
+
 @media (max-width: 750px) {
 
     .container {
@@ -194,5 +211,14 @@ header .image-container {
     nav > .container {
         width: 90%;
         padding: 0 .75rem;
+    }
+
+    /* cards-2 */
+
+    .cards-2 .card {
+        width: 100%;
+        margin: 0 auto 4.5rem;
+        display: flex;
+        flex-direction: column;
     }
 }

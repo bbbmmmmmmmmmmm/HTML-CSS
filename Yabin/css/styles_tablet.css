@@ -110,3 +110,11 @@ header .text-container h1 {
     flex: 0 0 auto;
     width: calc(6/12*100%);
 }
+
+/* cards-2 */
+
+.cards-2 .card {
+    width: 18.25rem;
+    margin: 0 auto 4.5rem;
+    display: inline-block;
+}
