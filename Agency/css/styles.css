@@ -49,6 +49,61 @@ body {
     border-color: #cca000;
 }
 
+.page-section {
+    padding: 6rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fill-color {
+    display: inline-block;
+    width: 7.75rem;
+    height: 7.75rem;
+    font-size: 4rem;
+    border-radius: 50%;
+    background-color: #ffc800;
+    line-height: 1.95;
+    color: #fff;
+    margin: 0.3rem 0;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h4, .h4 {
+    font-size: 1.5rem;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.my-3 {
+    margin: 1rem 0;
+}
+
+p {
+    line-height: 1.75;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 /* navbar */
 
 .navbar {
@@ -143,6 +198,47 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+}
+
+/* page-section */
+/* services */
+
+.page-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.page-section h3 {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* portfolio */
+
+#portfolio .portfolio-item .portfolio-caption {
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-style: italic;
+}
+
+@media (max-width: 1199.98px) {
+    
+    h4, .h4 {
+        font-size: calc(1.275rem + 0.3vw);
+    }
 }
 
 @media (max-width: 991.98px) {
