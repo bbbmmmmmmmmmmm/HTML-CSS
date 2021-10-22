@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -49,6 +50,19 @@ body {
     border-color: #cca000;
 }
 
+.btn-dark {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #212529;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    color: #fff;
+    background-color: #212529;
+}
+
 .page-section {
     padding: 6rem 0;
 }
@@ -85,10 +99,6 @@ h4, .h4 {
     color: #6c757d;
 }
 
-.my-3 {
-    margin: 1rem 0;
-}
-
 p {
     line-height: 1.75;
     margin-top: 0;
@@ -111,6 +121,18 @@ img {
 ol, ul, dl {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.img-brand {
+    height: 2.75rem;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-stretch {
+    align-items: stretch;
 }
 
 /* navbar */
@@ -345,6 +367,84 @@ ol, ul, dl {
     margin-bottom: 0;
 }
 
+/* team */
+
+#team .team-member {
+    margin-bottom: 3rem;
+}
+
+#team .team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+#team .team-member h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* contact */
+
+#contact {
+    background-color: #212529;
+    background-image: url("../images/map-image.png");
+    background-position: center;
+}
+
+#contact .section-heading {
+    color: #fff;
+}
+
+#contact #contactForm input {
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+#contact #contactForm input:last-child {
+    margin-bottom: 0;
+}
+
+#contact #contactForm textarea {
+    padding: 1.25rem;
+    width: 100%;
+    height: 100%;
+    min-height: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.footer .text-lg-start {
+    text-align: left;
+}
+
+.footer .text-lg-end {
+    text-align: right;
+}
+
 @media (max-width: 1199.98px) {
     
     h4, .h4 {
@@ -408,6 +508,16 @@ ol, ul, dl {
         font-size: 0.8125rem;
         line-height: 1.125rem;
         margin-top: 1rem;
+    }
+
+    /* footer */
+
+    .footer .text-lg-start {
+        text-align: center;
+    }
+    
+    .footer .text-lg-end {
+        text-align: center;
     }
 }
 
@@ -483,5 +593,11 @@ ol, ul, dl {
         width: 100%;
         padding: 0 1.25rem 0 6.25rem;
         text-align: left;
+    }
+
+    /* contact */
+    
+    #contact #contactForm input:last-child {
+        margin-bottom: 1.5rem;
     }
 }
