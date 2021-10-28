@@ -1,13 +1,19 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
-    height: 2000px;
 }
 
-body {
+body, p {
     font-size: 1rem;
     font-family: "Open Sans", "sans-serif";
     color: #53575a;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 * {
@@ -31,6 +37,14 @@ h1 {
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 3.25rem;
+    font-family: "Poppins";
+}
+
+h2 {
+    color: #2b2b4f;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
     font-family: "Poppins";
 }
 
@@ -67,6 +81,32 @@ h1 {
     color: #2b2b4f;
 }
 
+.bg-gray {
+    background-color: #f7f9fd;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.read-more {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #7dc22b;
+}
+
+.read-more .fas {
+    margin-left: 0.625rem;
+    font-size: 1rem;
+    vertical-align: -8%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 /* navbar */
 
 .navbar {
@@ -76,6 +116,13 @@ h1 {
     font-weight: 600;
     line-height: 0.875rem;
     background-color: transparent;
+    transition: all 0.2s;
+}
+
+.navbar.top-nav-collapse {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #2b2b4f;
 }
 
 .navbar .container {
@@ -186,6 +233,42 @@ h1 {
     margin-right: 0.75rem;
 }
 
+/* intro (basic-1) */
+
+.basic-1 {
+    padding-top: 9.5rem;
+    padding-bottom: 9rem;
+}
+
+.basic-1 h1 {
+    margin-top: 1.125rem;
+    margin-right: 2.5rem;
+}
+
+/* projects (basic-2) */
+
+.basic-2 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.basic-2 .text-container {
+    margin-top: 4.25rem;
+    margin-right: 2rem;
+}
+
+.basic-2 .text-container h2 {
+    margin-bottom: 1.875rem;
+}
+
+.basic-2 .text-container p {
+    margin-bottom: 1.25rem;
+}
+
+.basic-2 .image-container {
+    margin-left: 3.375rem;
+}
+
 @media (min-width: 1199.98px) {
     .container {
         max-width: 71.25rem;
@@ -227,6 +310,24 @@ h1 {
         padding: 1.625rem 2.625rem;
         font-size: 0.875rem;
     }
+
+    /* intro (basic-1) */
+
+    .basic-1 h1 {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    /* projects (basic-2) */
+
+    .basic-2 .text-container {
+        margin-top: 1.75rem;
+        margin-right: 2rem;
+    }
+
+    .basic-2 .image-container {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -261,6 +362,20 @@ h1 {
     .header .button-container {
         margin-top: 0;
         margin-left: 0;
+    }
+
+    /* intro (basic-1) */
+
+    .basic-1 h1 {
+        margin-bottom: 2.5rem;
+    }
+
+    /* projects (basic-2) */
+
+    .basic-2 .text-container {
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 4rem;
     }
 }
 
