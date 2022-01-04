@@ -37,6 +37,16 @@ input, button, select, optgroup, textarea {
     font-weight: 700;
     border: 0.1rem solid rgba(255, 255, 255, 0.6);
     background-color: #fff;
+    cursor: pointer;
+}
+
+.btn-rounded:hover {
+    background-image: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+    color: #fff;
+}
+
+.btn-rounded:hover span {
+    background-color: #212529;
 }
 
 .btn-rounded span {
@@ -122,10 +132,19 @@ input, button, select, optgroup, textarea {
 .nav-link {
     color: rgba(255, 255, 255, 0.55);
     padding: 0 0.5rem;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color:rgba(255, 255, 255, 0.8);
 }
 
 .navbar li a {
     font-weight: 600;
+}
+
+.active {
+    color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -134,5 +153,9 @@ input, button, select, optgroup, textarea {
         flex-grow: 1;
         justify-content: flex-end;
         align-items: center;
+    }
+
+    .navbar-toggler {
+        display: none;
     }
 }
