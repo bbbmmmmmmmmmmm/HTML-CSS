@@ -27,6 +27,36 @@ input, button, select, optgroup, textarea {
     line-height: inherit;
 }
 
+.display-2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-size: calc(1.575rem + 3.9vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-2--intro {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.display-2--description {
+    display: block;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    text-transform: none;
+}
+
+.lh-base {
+    line-height: 1.5;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 .rounded-pill {
     border-radius: 50rem;
 }
@@ -38,6 +68,7 @@ input, button, select, optgroup, textarea {
     border: 0.1rem solid rgba(255, 255, 255, 0.6);
     background-color: #fff;
     cursor: pointer;
+    display: block;
 }
 
 .btn-rounded:hover {
@@ -64,6 +95,57 @@ input, button, select, optgroup, textarea {
     color: #fff;
     font-size: 1rem;
     line-height: 2.5rem;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.top-50 {
+    top: 50%;
+}
+
+.start-50 {
+    left: 50%;
+}
+
+.translate-middle {
+    transform: translate(-50%, -50%);
+}
+
+.border-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 6rem;
+    border: 0.55rem solid #fff;
+    border-radius: 50%;
+    animation: pulse-border 1.5s linear infinite;
+}
+
+.border-animation--border-1 {
+    animation-delay: 1s;
+}
+
+.border-animation--border-2 {
+    animation-delay: 1.5s;
 }
 
 /* navbar */
@@ -147,7 +229,40 @@ input, button, select, optgroup, textarea {
     color: #fff;
 }
 
+/* intro-section */
+
+.intro-section {
+    background-image: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+    padding-top: 10rem;
+    width: 100%;
+    height: 100%;
+}
+
+.video-box {
+    position: relative;
+}
+
+.video-box a span i {
+    font-size: 6rem;
+    color: #d122e3;
+}
+
+@media (min-width: 1200px) {
+    
+    .display-2 {
+        font-size: 4.5rem;
+    }
+}
+
 @media (min-width: 992px) {
+
+    .display-2--description {
+        font-size: 1.4rem;
+        display: inline-block;
+    }
+
+    /* navbar */
+
     .collapse {
         display: flex;
         flex-grow: 1;
@@ -157,5 +272,17 @@ input, button, select, optgroup, textarea {
 
     .navbar-toggler {
         display: none;
+    }
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
     }
 }
