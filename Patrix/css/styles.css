@@ -27,6 +27,10 @@ input, button, select, optgroup, textarea {
     line-height: inherit;
 }
 
+strong {
+    font-weight: bolder;
+}
+
 hr {
     margin: 1rem 0;
     color: inherit;
@@ -38,6 +42,19 @@ hr {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+pre, code, kbd, samp {
+    font-family: var(--bs-font-monospace);
+    font-size: 1em;
+    direction: ltr /* rtl:ignore */;
+    unicode-bidi: bidi-override;
+}
+
+code {
+    font-size: 0.875em;
+    color: #d122e3;
+    word-wrap: break-word;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -176,6 +193,10 @@ h3 {
     text-transform: capitalize;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
 .text-white {
     color: #fff;
 }
@@ -258,6 +279,10 @@ h3 {
     margin: 0 auto;
     margin-bottom: 1rem;
     background-color: #9926f0;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 
 .shadow-sm {
@@ -473,6 +498,47 @@ h3 {
 .testimonials__name p {
     padding-bottom: 2rem;
     text-transform: capitalize;
+}
+
+/* faq */
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.accordion-item:first-of-type {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #fff;
+}
+
+
+.accordion-item:first-of-type .accordion-header {
+    color: #8a22d8;
+    background-color: #f5e9fe;
+}
+
+.accordion-header:hover {
+    cursor: pointer;
+}
+
+.accordion-header img {
+    height: 1.25rem;
+}
+
+.accordion-body {
+    padding: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 @media (min-width: 1200px) {
